@@ -4,10 +4,12 @@ A quick-start project that helps you to customize rows in a Blazor Data Grid usi
 
 Documentation:
 https://blazor.syncfusion.com/documentation/datagrid/row/#row-template
+
 https://blazor.syncfusion.com/documentation/datagrid/row/#detail-template
 
 Online examples:
 https://blazor.syncfusion.com/demos/datagrid/row-template
+
 https://blazor.syncfusion.com/demos/datagrid/detail-template
  
 ## Project prerequisites
