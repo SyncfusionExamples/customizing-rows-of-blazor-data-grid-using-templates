@@ -19,27 +19,25 @@ This sample demonstrates how to customize the appearance of records in the Syncf
 ## Prerequisites
 
 - Visual Studio 2022 or Visual Studio Code
-- .NET SDK compatible with the project's target framework
+- .NET 10.0 SDK
 
 ## How to Run the Project
 
 **Visual Studio 2022**
 
 1. Clone or download the repository.
-2. Open the solution file `CustomGridRowSample.sln`.
+2. Open the project file `CustomGridRowSample.csproj`.
 3. Restore all NuGet packages.
-4. Set the `Server` project as the startup project.
-5. Build the solution.
-6. Run the application using `Ctrl+F5`.
+4. Build the project.
+5. Run the application using `Ctrl+F5`.
 
 **Visual Studio Code**
 
 1. Open the repository folder in Visual Studio Code.
 2. Open the integrated terminal.
-3. Navigate to the Server project directory.
+3. Restore and run the project.
 
 ```bash
-cd Server
 dotnet restore
 dotnet run
 ```
@@ -48,7 +46,7 @@ dotnet run
 
 ## Project Structure
 
-- `Client/Pages/Index.razor` — contains the Syncfusion Blazor DataGrid implementation, custom RowTemplate definition, sample data binding configuration, and row rendering logic.
+- `Pages/Index.razor` — contains the Syncfusion Blazor DataGrid implementation, custom RowTemplate definition, sample data binding configuration, and row rendering logic.
 
 ## Support and Feedback
 
